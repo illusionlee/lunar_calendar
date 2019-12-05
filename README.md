@@ -34,7 +34,6 @@ RT-Thread online packages
 
 ## 3、使用 lunar_calendar
 
-### 生成二维码
 
 在使用 lunar_calendar 软件包时首先要定义一个`char`数组来存储返回的阴历汉字，如：
 
