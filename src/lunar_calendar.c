@@ -152,7 +152,7 @@ int lunar_calendar(int year, int month, int day) {
     lunar_calendar_day = day;
     lunar_calendar_day |= (month << 6);
     if (month == ((lunar_calendar_table[year - 1901] & 0xF00000) >> 20)) {
-        return 1;
+        return flag;
     } else {
         return 0;
     }
